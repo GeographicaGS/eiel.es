@@ -1,0 +1,321 @@
+body {
+  background: #fdfdfd;
+  color: #7d7b7c;
+  font-size: 16px;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  padding-top: 238px;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 20px;
+}
+#intro h2, #intro h3.title_service{ text-align:center}
+
+
+p {
+  overflow: hidden;
+  padding: 0;
+  text-align: left;
+}
+
+.container_12,
+ {
+  background-color: #fff;
+  background-repeat: repeat-y;
+  margin-bottom: 20px;
+}
+
+/*estilos EIEL*/
+body{
+	margin: 0;
+	min-width: 940px;
+	padding: 0;
+}
+/**/.intro{
+	/*background:url(../images/bg_geographica.png) repeat;*/
+	width:100%;
+/*	float:left;
+*/	height:738px;
+	}
+#intro{
+	background:url(../images/bg_geographica.png) no-repeat fixed;
+	height: 738px;
+	margin: 0;
+	padding: 0 0 0 0;
+}
+.wellcome{
+	font-size:36px; color:#ffffff; font-weight: bold; text-shadow: 1px 1px 1px #418000; margin-top:-9px;
+	}
+
+.first{
+	padding-top:218px 0 50px;
+	/*background: url(../images/logo_eiel.png) no-repeat top center;*/
+	/*top:605px;*/
+	}
+
+
+
+h2.fontface {font: 24px/24px helvetica, Arial, sans-serif; letter-spacing: 0; padding-top:13px; margin-bottom:17px; font-weight:bold; color:#82b600}
+#third p.subtitle, #six p.subtitle, #seven p.subtitle{ color:#ff0000}
+p{
+	margin: 0 0 18px 0;
+}
+
+p, ul{
+	font-family:Helvetica, Arial, sans-serif;
+	font-size-adjust:16px;
+	line-height:18px;
+	font-style:normal;
+	color:#7f7f7f;
+}
+h1.present{
+	width:auto;
+	padding:0 auto;
+	margin-bottom:18px;
+	font: 16px/18px helvetica, Arial, sans-serif; font-weight: bold; color:#3d3b3c;
+	text-shadow: 1px 1px 1px #c0da7f;
+	}
+.first p.subtitle { color:#ffffff; text-shadow: 1px 1px 1px #418000; text-align:center;}
+.first .text_center{ text-align:center;}
+
+img{ border: 0;}
+
+h2{
+	font-family:"Beau Sans Pro Book", Verdana, sans-serif;
+	font-size-adjust:0.531;
+	font-weight:500;
+	font-style:normal;
+	}
+
+.soluciones_eiel{ width:100%; background:#fff; margin-top:77px; padding-bottom:44px;}
+/*#header h1, #pixels{
+	color: #48941A;
+}*/
+
+.float-left{
+	float: left;	
+	margin: 0 0 0 10px;
+	}
+
+.float-right{
+	float: right;
+	margin: 0 0 0 0;
+	}
+
+.center{
+	font-size: 2.5em;
+	padding: 80px 0;
+	text-align: center;
+	}
+
+/*#header, */#intro, #second, #third, #fourth, #fifth{
+	width: 100%;
+	}
+.menuTop{
+	top:0 !important;
+	position: fixed;
+	 height: 62px !important;
+	 background:url(../images/bg_nav.png) repeat-x bottom;
+	}
+.menuTop ul.menu{ margin-top:11px;}
+
+.menuNominal{
+	top:407px !important;
+	position: absolute;
+	}
+
+#nav{
+	width:100%;
+	list-style: none;
+	margin:0px auto 0;
+	padding-top:10px;
+	height:50px;
+	z-index:5000;
+	
+	}
+
+ul.menu{margin:0 auto;}
+ul.menu li.first{ margin-left:220px;}
+ul.menu li{ float:left; width:auto; margin:0 7px 0 0; padding:0 7px 0 0; list-style:none; border-right: 1px solid #e0edbf; text-shadow: 1px 1px 1px #418000;}
+ul.menu li.last_menu{ border-right:none; margin-right:0;}
+ul.menu li a{font: 18px/16px; text-decoration:none; color:#e0edbf; }
+ul.menu li a:hover{ color:#fff}
+ul.menu li a span{
+	 font: 18px/16px Georgia, "Times New Roman", Times, serif; font-style:italic;
+	}
+.soluciones{float:left; margin-top:24px;}
+h3.title_service{ font-size:11px; font-weight: bold; color:#3d3b3c; margin:0 auto; width:auto;}
+p.black_text{ color:#3d3b3c;}
+/*SECOND*/
+.sombra{ width:100%; float:left; background:url(../images/sombra.png) repeat-x top; height:3px; margin-bottom:20px; border-top:1px solid #cecece}
+#second{
+	background: url(../images/secondBG.png) 50% 0 no-repeat fixed #eaeaea;		  
+	color: black;
+	height: 426px;
+	/*margin: 0 auto;
+	overflow: hidden;float:left;*/
+	padding: 0 0 0;
+	width:100%;
+	float:left;
+	display: block;
+	
+	}
+
+
+#second .bg{
+	background: url(../images/ilusta1.png) 50% 0 no-repeat /*fixed*/;
+	height: 426px;	width: 460px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	z-index: 200;
+	}
+
+
+#second #informaciones .last{ margin-right:0;}
+a{ color:#82b600; font-size:16px;  text-decoration:none; font-family:Helvetica, Arial, sans-serif;}
+a:hover{ color:#000; text-decoration: underline;}
+/* FIN SECOND */
+/*THIRD*/
+#third{
+	background: url(../images/thirdBG.png) 50% 0 no-repeat fixed #fff;
+	color: white;
+	height: 426px;
+	padding: 0 0 0;
+	width:100%;
+	float:left;
+	}
+
+#third .bg{
+	background: url(../images/ilustra2.png) 50% 0 no-repeat /*fixed*/;
+	height: 426px;	width: 940px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	z-index: 200;
+	}
+
+#fourth{
+	background: url(../images/bg_03.png) 50% 0 no-repeat fixed #eaeaea;
+	height: 426px;
+	padding: 0 0 0;
+	width:100%;
+	float:left;
+}
+#fourth .bg{
+	background: url(../images/ilustra3.png) 50% 0 no-repeat /*fixed*/;
+	height: 426px;	width: 460px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	z-index: 200;
+	}
+
+#fifth{
+	background: url(../images/bg_04.png) 50% 0 no-repeat fixed;
+	height: 426px;
+	padding: 0 0 0;
+	width:100%;
+	float:left;
+	}
+#fifth .bg{
+	background: url(../images/ilustra4.png) 50% 0 no-repeat /*fixed*/;
+	height: 426px;
+	width: 940px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	z-index: 200;
+}	
+
+
+#six{
+	background: url(../images/bg_05.png) 50% 0 repeat /*fixed*/;
+	border-top: 1px solid #000;
+	height: 1000px;
+	margin: 0 auto;
+	padding: 46px 0 0 0;
+	width:100%;
+	float:left;
+	}
+
+.story{
+	margin: 0 auto;
+	min-width: 940px;
+	width: 940px;
+	}
+
+/*FOOTER*/
+.footer{ color:#b1b0b0; font-size:13px; line-height:18px;}
+.footer p{ color:#b1b0b0}
+.footer ul li span.greenfooter{color:#82B600;}
+.footer a{ font-size:13px; color:#dbd8d6;}
+.footer a:hover{ color:#82B600;}
+.footer ul{ list-style: none;}
+.footer ul li{ margin-left:0; color:#b1b0b0;}
+.footer ul li.phone{ margin-top:17px; font-size:16px; color:#dbd8d6; background:url(../images/phone_icon.png) no-repeat left; padding-left:18px; letter-spacing: -0.01em}
+.footer ul li span{ color:#b1b0b0}
+.footer ul li.skype{ background: url(../images/skype_icon.png) no-repeat left; padding-left:18px; letter-spacing: -0.03em}
+.footer .logo_geographica{ margin-top:8px;}
+
+.link_work{ font-size:13px; color:#3d3b3c; text-decoration: none;  float:left; clear: both; background:url(../images/arrow_link.png) no-repeat right; padding-right:15px;}
+.link_work span{border-bottom: 1px solid #b1b0b0;}
+.link_work:hover{ text-decoration: none; color:#82B600; border-bottom:#82B600}
+.link_work:hover span{border-bottom:1px solid #82B600}
+
+/*.story .float-left, .story .float-right{
+	padding: 100px 0 0 0;
+	position: relative;
+	width: 700px;	
+}*/
+.btn {
+	float:left; clear:both;
+	text-decoration:none;
+	text-align:center;
+	color: #fff;
+	font-size:12px;
+	padding:3px 9px 3px 9px;
+	font-weight:bold;
+	margin:29px 10px 33px 0;
+	cursor:pointer;
+	display: inline-block;
+	border:1px solid #629c00;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background:#82b600;
+	text-shadow: 0 -1px 0 #428200;
+	}
+.btn:hover{ color:#E0EDBF; text-shadow:0 -1px 0 #428200; text-decoration: none;	}
+p.text_center{ text-align: center;}
+.c2, .c4{ position: relative; z-index:3000;}
+p#subir {
+    background: url(../images/GEO_W12_fondo_icon_subir_pie.png) no-repeat;
+    display: block;
+    float: right;
+    height: 28px;
+    padding-left: 23px;
+    padding-top: 5px;
+    width: 39px;
+	color:#fff;
+	margin-top:-40px;
+	cursor:pointer;
+	}
+*{ border:none;}
+

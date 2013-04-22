@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>La EIEL, según Geographica</title>
+<meta name="Author" content="Geographica GS">
+<meta name="language" content="es-ES">
+<meta name="keywords" content="Eiel, encuesta de infraestructura y equipamientos locales, GIS, SIG, Geografica, geographica, madrid, sevilla, burgos, córdoba, mirador, pórtico, recogida de datos, análisis de datos, cuadro de mando territorial" />
+<meta name="description" content="La Encuesta de Infraestructura y Equipamientos Locales (EIEL) son datos requeridos a las Diputaciones y Cabildos por parte del Ministerio de Hacienda y Administraciones Públicas. Su objetivo principal es la recopilación de información para valorar los déficits y las necesidades de dotaciones a nivel local." />
+
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/text.css" />
+<link rel="stylesheet" href="css/960.css" />
+<link rel="stylesheet" href="css/demo.css" />
+
+<link rel="icon" type="image/png" href="http://www.geographica.gs/application/views/img/GEO_W12_favicon.png"/>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/nbw-parallax.js"></script>
+<script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javascript" src="scripts/jquery.inview.js"></script>
+
+
+<script type="text/javascript">
+
+
+$(document).ready(function(){
+	$("ul.menu a,a[href='#six']").click(function(){
+	
+		$('html, body').animate({
+			scrollTop: $($(this).attr("href")).offset().top - $("#nav").outerHeight(true)
+		}, 1000);
+		//$("#nav").css("top",0);
+		$('#nav').animate({
+			top:0,
+		  }, 500, function() {
+			$("#nav").removeClass("menuNominal").addClass("menuTop");
+	  	});
+		
+
+
+	});
+	
+	$("#subir").click(function(){
+		$("#nav").removeClass("menuTop");	
+
+		$('html, body').animate({
+			scrollTop:0
+		}, 1000,function(){
+		});
+	});
+	
+	$(window).bind('scroll',function(){ 
+	console.log("aqui");
+		if ($(window).scrollTop() > 425){
+			$("#nav").removeClass("menuNominal").addClass("menuTop");
+		}
+		else{
+			$("#nav").removeClass("menuTop").addClass("menuNominal");
+		}
+		
+	});
+})
+</script>
+</head>
+
+<body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-9148278-41', 'eiel.es');
+  ga('send', 'pageview');
+
+</script>
+<!--<div id="header">
+	<div class="story">
+        <h1>Nikebetterworld.com Parallax Demo</h1>
+        <p><a href="http://www.ianlunn.co.uk/blog/code-tutorials/recreate-nikebetterworld-parallax/" title="Tutorial">Read the Tutorial</a><br />
+        <a href="http://www.ianlunn.co.uk/demos/recreate-nikebetterworld-parallax/recreate-nikebetterworld-parallax.zip" title="Demo">Download the Demo Files</a></p>
+    </div> 
+</div>--> <!--#header-->
+<div id="nav" class="menuNominal">
+                <ul class="menu container_12" >
+                    <li class="first"><a href="#second" title="Recogemos">1. <span>Recogemos</span></a></li>
+                    <li><a href="#third" title="Validamos">2. <span>Validamos</span></a></li>
+                    <li><a href="#fourth" title="Visualizamos">3. <span>Visualizamos</span></a></li>
+                    <li class="last_menu"><a href="#fifth" title="Analizamos">4. <span>Analizamos</span></a></li>
+                </ul>
+              </div>
+<div id="intro" class="intro">
+    	<div class="story first container_12" id="header">
+        	
+            <h1 class="present ">¿Qué es la EIEL?</h1>
+            <p class="subtitle grid_10 prefix_1">La Encuesta de Infraestructura y Equipamientos Locales (EIEL) son datos  requeridos</br> a las Diputaciones y Cabildos por parte del Ministerio de Hacienda y Administraciones Públicas.</br>  Su objetivo principal es la recopilación de información para valorar los déficits y las necesidades</br> de dotaciones a nivel local. </p>
+
+            
+            <div class="grid_10 prefix_1 wellcome">Bienvenidos a la EIEL, según Geographica.</div>
+    </div>
+    <div class="soluciones_eiel">
+        <div class="container_12">
+                <div class="grid_10 prefix_1 soluciones">
+                            <h3 class="title_service">SOLUCIONES PARA LA EIEL</h3>
+                            <h2 class="fontface">Experiencia y Tecnología</h2>
+                            <p class="text_center"><a href="#six" title="Contactar con geographica.gs">Geographica</a> trabaja ininterrumpidamente en la EIEL desde el año 2006.</br>
+                Con experiencia tanto en la recogida como en la grabación y digitalización de los datos solicitados,</br>
+                Geographica ha realizado desde entonces múltiples entregas correctas al Ministerio competente, </br>
+                facilitando esta labor a provincias como Sevilla, Córdoba o Burgos.</p>
+                
+                <p class="black_text text_center">Según tus necesidades, puedes contratar desde una solución al <em>pack</em> completo. De 1 a 4, tú eliges:</p>
+                </div>
+            </div>
+        </div>
+	
+</div> <!--#intro-->
+
+<div id="second">
+<div class="sombra"></div>
+	<div class="story container_12">
+    	<div class="bg"></div>
+    	<div class="grid_6 float-right">
+            
+              	<h3 class="title_service">SOLUCIÓN DE TRABAJO DE CAMPO</h3>
+                <h2 class="fontface shadow_w">1. Recogida de datos</h2>
+                <p>Es un servicio flexible, podemos hacer todos los municipios</br> o un número determinado, realizar el trabajo de campo o simplemente la labor de gabinete de digitalización. </br>Hemos recogido datos de todas las temáticas de la EIEL, </br>incluso hemos aprovechado las visitas para recopilar otra información de utilidad para las Diputaciones. Siempre contamos con personas de la provincia contratante para el trabajo de campo. Los formamos, los dirigimos y hacemos el control de calidad a la información recopilada.</p>
+
+<a href="http://www.geographica.gs/#/project/view/9" class="link_work" title="Recogida para la Diputación de Sevilla y Córdoba"><span>Recogida para la Diputación de Sevilla y Córdoba</span></a>
+<a class="btn" href="mailto:info@geographica.gs">Asegura tu entrega contratando esta solución</a>
+    
+        </div>
+    </div> <!--.story-->
+    
+</div> <!--#second-->
+
+<div id="third">
+	<div class="sombra"></div>
+	<div class="story container_12">
+    	<div class="bg"></div>
+    	<div class="grid_6 c2">
+              	<h3 class="title_service">SOLUCIÓN DE ENTREGA</h3>
+                <h2 class="fontface">2. Validación y entrega</h2>
+                <p>Podemos validar y preparar la información para la entrega en el Ministerio. 11 entregas diferentes y de diferentes provincias nos avalan. Además nos encargamos de las correcciones y de las justificaciones que solicite el Ministerio. Nos adecuamos a la solución y a la metodología de la Diputación contratante. Hemos trabajado con soluciones CAD o GIS y hemos entregado o adaptado encuestas que estaban sobre LocalGIS, GeoPista, QGIS, gvSIG EIEL, ArcGIS etc. Damos respuesta rápida a los cambios del modelo de datos y entregamos las geometrías para las Diputaciones que precisen únicamente ese servicio.</p>
+
+<a href="http://www.geographica.gs/#/project/view/9" class="link_work" title="Validaciones para la Diputación de Burgos y de Sevilla"> <span>Validaciones para la Diputación de Burgos y de Sevilla</span></a>
+<a class="btn" href="mailto:info@geographica.gs">Solicitanos información</a>
+    
+              </div>
+              
+    </div> <!--.story-->
+</div> <!--#third-->
+
+<div id="fourth">
+	<div class="sombra"></div>
+	<div class="story container_12">
+    	<div class="bg"></div>
+    	<div class="grid_6 float-right">
+              	<h3 class="title_service">SOLUCIÓN ‘MIRADOR’</h3>
+                <h2 class="fontface shadow_w">3. Visualización de datos</h2>
+                <p>Mirador es una aplicación que da respuesta a la necesidad de las Diputaciones de publicar vía web las infraestructuras y los equipamientos públicos de los municipios de sus provincias. Permite mostrar la información pública de la EIEL orientada al ciudadano. Es una aplicación que se caracteriza por tener un diseño sencillo y que resulta cómoda y fácil de manejar para todos los públicos. Todos los contenidos están interconectados. Mirador puede usar muchas bases cartográficas como WMS de servicios públicos, Google Maps, OpenStreetMap etc.</p>
+
+<a  class="link_work" href="http://www.mirador.dipusevilla.es" title="Mirador Sevilla"><span>Mirador Sevilla</span></a>
+<a class="btn" href="mailto:info@geographica.gs">Solicitanos información</a>
+    
+              </div>
+    </div> <!--.story-->
+</div> <!--#fourth-->
+
+<div id="fifth">
+	<div class="sombra"></div>
+	<div class="story container_12">
+    	<div class="bg"></div>
+    	<div class="grid_6 c4">
+              	<h3 class="title_service">SOLUCIÓN ‘P&Oacute;RTICO’</h3>
+                <h2 class="fontface">4. Análisis de datos</h2>
+                <p>Pórtico es el inventario de toda la información de la encuesta dentro de un cuadro de mando territorial para la toma de decisiones en materia de inversiones en infraestructuras y equipamientos. Con Pórtico se pueden generar informes e indicadores. Permite el envío de datos e informes de manera automática según perfiles. La finalidad de Pórtico es crear conocimiento sobre la información existente, es una herramienta destinada a analizar déficits, a controlar las inversiones y poder corregir desequilibrios dotacionales y territoriales. Pórtico permite crear y mostrar series geoestadísticas de indicadores tanto alfanuméricas como cartográficas. </p>
+
+<a  class="link_work" href="http://www.geographica.gs/#/project/view/3" title="Pórtico"><span>Pórtico</span></a>
+
+<a class="btn" href="mailto:info@geographica.gs">Contrata esta solución</a>
+    
+              </div>
+              
+    </div> <!--.story-->
+    
+</div> <!--#fifth-->
+
+<div id="six" class="footer">
+	<div class="story container_12">
+    	<div class="grid_2">
+        	<ul>
+                <li><span class="greenfooter">Geographica</span></li>
+                <li>Rodio 35</li>
+                <li>41007 Sevilla, España</li>
+                <li><a href="mailto:info@geographica.gs" title="geographica.gs">info@geographica.gs</a></li>
+                <li class="phone"><span>+34</span> 954 437 818</li>
+                <li class="skype"><span>skype:</span> <a href="skype:geographica.gs?call" class="">geographica.gs</a></li>
+            </ul>
+      </div>
+      
+        <div class="grid_6 prefix_1">
+            <p>Geographica es un estudio tecnológico especializado en soluciones de 
+    software que ordenan, muestran e integran datos. </p>
+            <p>El 93,2% de nuestros clientes nos ha contratado para más tareas. 
+    Geographica pertenece a la Red Enterprise Europe Network (EEN).</p>
+            <p><a href="" title="geographica.gs">www.geographica.gs</a></p>
+        </div>
+        <div class=" grid_3 omega alpha">
+        	<p id="subir">Subir</p>
+        	<img class="logo_geographica" src="images/logo_geographica.png" width="220" height="152" alt="geographica"> </div>
+  </div> <!--.story-->
+</div> <!--#six-->
+
+
+</body>
+</html>
