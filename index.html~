@@ -205,7 +205,7 @@ $(document).ready(function(){
     software que ordenan, muestran e integran datos. </p>
             <p>El 93,2% de nuestros clientes nos ha contratado para más tareas. 
     Geographica pertenece a la Red Enterprise Europe Network (EEN).</p>
-            <p><a href="http://www.geographica.gs" title="geographica.gs"target="_self"><span>www.geographica.gs</span></a></p>
+            <p><a href="" title="geographica.gs">www.geographica.gs</a></p>
         </div>
         <div class=" grid_3 omega alpha">
         	<p id="subir">Subir</p>
